@@ -40,5 +40,21 @@ Open and run this code in the file "generate.py" where it exists. Please always 
 
 Locate the "alpaca_data.json" file. Please use the "instruction" and "input" inside to test the output.
 
+### Tips on the original Guide to Alpaca -lora.
 
+Their teaching code format needs to be fine-tuned before it can be used. Here are some examples:
+This is their code:
 
+```
+python generate.py \
+    --load_8bit \
+    --base_model 'decapoda-research/llama-7b-hf' \
+    --lora_weights 'tloen/alpaca-lora-7b'
+```
+Should be:
+
+```
+python generate.py --load_8bit --base_model 'decapoda-research/llama-7b-hf' --lora_weights 'tloen/alpaca-lora-7b'
+```
+
+Running commands does not directly modify the contents of the original Python file. Running a command simply executes the Python script and influences the behavior and output of the script based on the configuration of the command line arguments.

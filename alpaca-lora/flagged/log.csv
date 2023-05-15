@@ -1,0 +1,8 @@
+Instruction,Input,Temperature,Top p,Top k,Beams,Max tokens,Stream output,Output,flag,username,timestamp
+"hello, please tell me about apple",color,0.1,0.75,40,4,128,False,,,,2023-05-13 02:24:35.857229
+,"hello
+",0.1,0.75,40,4,128,False,,,,2023-05-13 02:25:27.284727
+,,0.1,0.75,40,4,128,False,,,,2023-05-13 02:48:40.475633
+Give three tips for staying healthy.,,0.1,0.75,40,4,128,False,"1. Eat a balanced diet.
+2. Exercise regularly.
+3. Get plenty of rest.",,,2023-05-13 04:14:25.334867

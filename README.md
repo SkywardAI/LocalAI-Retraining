@@ -18,22 +18,22 @@ We don't recommend using finetune.py if we only have CPU, this is for users with
 
 ### Inference (`generate.py`)
 
-    ```
-    .launch(server_name="0.0.0.0", share=True)
-    ```
+```
+.launch(server_name="0.0.0.0", share=True)
+```
 Change "share" to True in "generate.py".
 
-    ```
-    base_model: str = "huggyllama/llama-7b",
-    lora_weights: str = "tloen/alpaca-lora-7b",
-    ```
+```
+base_model: str = "huggyllama/llama-7b",
+lora_weights: str = "tloen/alpaca-lora-7b",
+```
 Make sure to select the model you want to run and set the weights. You can add or modify parameters here "def main". Whatever you like.
 
 ### Run "generate.py"
 
-     ```
-     python generate.py
-     ```
+ ```
+ python generate.py
+ ```
 Open and run this code in the file "generate.py" where it exists. Please always pay attention to the operation of the computer including temperature, memory usage. This will take some time to run the code. Once this is done, the command line prompt will provide an address that the user can open in a browser and then try to use the trained AI.
 
 ### Instruction selection

@@ -5,9 +5,7 @@ A guide to local AI training based on the Alpaca-Lora model in preparation for r
 
  Install dependencies
 
-    ```
-    pip install -r requirements.txt
-    ```
+    ```pip install -r requirements.txt```
 Open the project folder and find the "requirememts.txt" file location. Run the command prompt at this location, and then run this code at the command prompt. Note that to use pip you need to install python locally in advance. Please use python3.8.
 
 
